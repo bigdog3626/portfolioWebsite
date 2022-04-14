@@ -17,12 +17,12 @@ export default function Hero() {
                         </h1>
                     </RainBowHighlight>
                     <RainBowHighlight color={colors[1]}>
-                        <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                        <h1 className="text-4xl md:text-8xl font-bold text-gray-600 dark:text-gray-200 my-2">
                             Developer.
                         </h1>
                     </RainBowHighlight>
                     <RainBowHighlight color={colors[2]}>
-                        <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                        <h1 className="text-4xl md:text-8xl font-bold text-gray-500 dark:text-gray-300 my-2">
                             Engineer.
                         </h1>
                     </RainBowHighlight>

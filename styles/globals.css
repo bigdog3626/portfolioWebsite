@@ -30,3 +30,8 @@ a {
   --background: #534340;
   --foreground: white;
 }
+
+[color-scheme='dark'] {
+  --background: #544340;
+  --foreground: white;
+}

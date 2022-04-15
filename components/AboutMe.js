@@ -6,14 +6,14 @@ export default function AboutMe() {
     return (
         <section className="bg-meadows-400 dark:bg-meadows-1050">
             <div className="max-w-6xl mx-auto h-48 bg-meadows-400 dark:bg-gray-800">
-                <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left text-meadows-800">
+                <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left text-leather">
                     About Me.
                 </h1>
             </div>
-            <div className="bg-[#F1F1F1] -mt-10 dark:bg-meadows-500">
+            <div className="bg-meadows-125 -mt-10 dark:bg-meadows-500">
                 <div className="text-container max-w-6xl mx-auto pt-20">
                     <p
-                        className="leading-loose text-2xl md:text-4xl font-semibold  mx-4"
+                        className="leading-loose text-2xl md:text-4xl font-semibold  mx-4 text-meadows-700 dark:text-gray-500"
                         style={{ lineHeight: "3rem" }}
                     >
                         {userData.about.title}. Currently working on{" "}
@@ -26,7 +26,7 @@ export default function AboutMe() {
                     </p>
                 </div>
             </div>
-            <div className="bg-[#F1F1F1] dark:bg-gray-900 px-4">
+            <div className="bg-meadows-125 dark:bg-gray-900 px-4">
                 <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
                     {/* Social Buttons */}
                     <div className="inline-flex flex-col">
@@ -134,7 +134,7 @@ export default function AboutMe() {
                         {userData.about.description?.map((desc, idx) => (
                             <p
                                 key={idx}
-                                className="text-xl text-gray-700 mb-4 dark:text-gray-300 "
+                                className="text-xl text-gray-700 mb-4 dark:text-gray-700"
                             >
                                 {desc}
                             </p>

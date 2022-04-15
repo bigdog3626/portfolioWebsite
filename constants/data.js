@@ -70,7 +70,7 @@ const userData = {
 
       ],
       currentProject: "TabChecker",
-      currentProjectUrl: "https://tailwindmasterkit.com",
+      currentProjectUrl: "https://github.com/bigdog3626/tabChecker",
     },
     
     resumeUrl:

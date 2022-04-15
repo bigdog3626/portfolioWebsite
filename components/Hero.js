@@ -12,17 +12,17 @@ export default function Hero() {
             <div className="w-full md:w-1/2 mx-auto-text-center md:text-left lg:p-20">
                 <RoughNotationGroup show={true}>
                     <RainBowHighlight color={colors[0]}>
-                        <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                        <h1 className="text-5xl md:text-9xl font-bold text-gray-700 dark:text-gray-200 my-2">
                             Designer.
                         </h1>
                     </RainBowHighlight>
                     <RainBowHighlight color={colors[1]}>
-                        <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                        <h1 className="text-5xl md:text-9xl font-bold text-gray-700 dark:text-gray-200 my-2">
                             Developer.
                         </h1>
                     </RainBowHighlight>
                     <RainBowHighlight color={colors[2]}>
-                        <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">
+                        <h1 className="text-5xl md:text-9xl font-bold text-gray-700 dark:text-gray-200 my-2">
                             Engineer.
                         </h1>
                     </RainBowHighlight>
@@ -30,15 +30,15 @@ export default function Hero() {
             </div>
             {/* Image Container */}
             <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
-                <div className="w-3/4">
-                    <img src={userData.avatarUrl} alt="avatar" className=" shadow h-500 w-400 mx-4 my-2 " />
+                <div className="w-1/2 h-3/4">
+                    <img src={userData.avatarUrl} alt="avatar" className=" shadow h-350 w-300 mx-4 my-2 " />
                     <div className="flex flex-row justify-between mt-4">
                         <div className="flex flex-row space-x-4">
                             <svg
                                 xmlns="https://www.w3.org/2000/svg"
                                 width="16"
                                 height="16"
-                                fill="currentColor"
+                                fill="meadows-800"
                                 className="bi bi-arrow-90deg-up"
                                 viewBox="0 0 16 16"
                             >
@@ -48,7 +48,7 @@ export default function Hero() {
                                 />
 
                             </svg>
-                            <p className="font-mono">That's me</p>
+                            <p className="font-mono text-meadows-800">That's me</p>
                         </div>
                     </div>
                 </div>

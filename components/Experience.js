@@ -5,9 +5,9 @@ import React from "react";
 
 export default function Experience() {
   return (
-    <section className="bg-white dark:bg-gray-800">
-      <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
-        <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
+    <section className="bg-gray-200 dark:bg-gray-800">
+      <div className="max-w-6xl mx-auto h-48 bg-gray-200 dark:bg-gray-800">
+        <h1 className=" text-gray-400 dark:text-gray-800 text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
           Experience
         </h1>
       </div>
@@ -46,7 +46,7 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }) => {
       <h1 className="absolute -top-10 md:-left-10 md:-top-10 text-4xl text-gray-200 font-bold dark:text-gray-800">
         {year}
       </h1>
-      <h1 className="font-semibold text-xl">{title}</h1>
+      <h1 className="font-semibold text-xl text-gray-900">{title}</h1>
       <a href={companyLink} className="text-gray-500">
         {company}
       </a>

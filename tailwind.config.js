@@ -16,6 +16,7 @@ module.exports = {
         current : 'currentColor',
         'tan': '#BB9981',
         'leather' : '#825f4c',
+        neutral: colors.neutral,
         'meadows': {
           100: '#FFF5C7',
           125: '#F8F0C1',

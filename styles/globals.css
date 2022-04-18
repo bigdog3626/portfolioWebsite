@@ -19,19 +19,3 @@ a {
 * {
   box-sizing: border-box;
 }
-
-:root {
-  /* Your default theme */
-  --background: white;
-  --foreground: #534340;
-}
-
-[data-theme='dark'] {
-  --background: #534340;
-  --foreground: white;
-}
-
-[color-scheme='dark'] {
-  --background: #544340;
-  --foreground: white;
-}

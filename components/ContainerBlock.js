@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import Navbar from "./Navbar";
+import NavBar from "./NavBar";
 import Footer from "./Footer"
 
 
@@ -26,11 +26,11 @@ export default function ContainerBlock({ children, ...customMeta }) {
                 <meta content={meta.description} name="description" />
                 <meta
                     property="og:url"
-                    content={`https://portfolio-website-six-lac.vercel.app${router.asPath}`}
+                    content={`https://yourwebsite.com${router.asPath}`}
                 />
                 <link
                     rel="canonical"
-                    href={`https://portfolio-website-six-lac.vercel.app${router.asPath}`}
+                    href={`https://yourwebsite.com${router.asPath}`}
                 />
 
                 <meta property="og:type" content={meta.type} />
@@ -52,7 +52,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
             </Head>
             <main classname="dark:bg-white w-full">
-                <Navbar />
+                <NavBar />
                 <div>{children}</div>
                 <Footer />
             </main>

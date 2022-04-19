@@ -70,11 +70,11 @@ const GitHubRepoCard = ({ latestRepo }) => {
             </p>
             <a
                 href={latestRepo.clone_url}
-                className="font-semibold group flex flex-row space-x-2 w-full items-center"
+                className="font-semibold group flex flex-row space-x-2 w-full items-center s hover:drop-shadow-sm s:transition"
             >
                 <p>View Repository</p>
-                <div className="transform group-hover:translate-x-2 transition duration-300">
-                    %rarr;
+                <div className="transform group-hover:translate-x-2 transition duration-300 text-gray-600">
+                    ⏎
                 </div>
             </a>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
-import NavBar from "./NavBar";
+import Navbar from "./Navbar";
 import Footer from "./Footer"
 
 
@@ -52,7 +52,7 @@ export default function ContainerBlock({ children, ...customMeta }) {
 
             </Head>
             <main classname="dark:bg-white w-full">
-                <NavBar />
+                <Navbar />
                 <div>{children}</div>
                 <Footer />
             </main>

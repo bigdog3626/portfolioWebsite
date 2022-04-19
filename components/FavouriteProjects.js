@@ -7,7 +7,7 @@ export default function FavouriteProjects() {
       <div className="max-w-6xl mx-auto">
         <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-600 my-20 md:my-0  dark:text-gray-600 text-center">
-            Favourite Projects
+            Favorite Projects
           </h1>
           <Link href="/projects">
             <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold 
@@ -41,7 +41,7 @@ export default function FavouriteProjects() {
           >
             <div className="relative overflow-hidden">
               <img
-                src="/tabCheckerSC.png"
+                src="/tabchecker.png"
                 alt="tabChecker"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />

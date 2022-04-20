@@ -143,10 +143,10 @@ export default function AboutMe() {
                         <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-neutral-50">
                             Tech Stack
                         </h1>
-                        <div className="flex flex-row flex-wrap mt-8">
+                        <div className="flex flex-row flex-wrap mt-8 ">
                             <img 
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png"
-                                className="h-20 w-20 mx-4 my-4"
+                                src="https://icon-library.com/images/django-icon/django-icon-0.jpg"
+                                className="h-20 w-20 mx-4 my-4 mix-blend-lighten dark:mix-blend-screen"
                             />
                             <img
                                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
@@ -170,7 +170,7 @@ export default function AboutMe() {
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Nextjs-logo.svg/2560px-Nextjs-logo.svg.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
@@ -178,11 +178,11 @@ export default function AboutMe() {
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/react/react.png"
+                                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+                                src="https://mshr-h.gallerycdn.vsassets.io/extensions/mshr-h/veriloghdl/1.5.3/1639707450533/Microsoft.VisualStudio.Services.Icons.Default"
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
@@ -190,7 +190,7 @@ export default function AboutMe() {
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
-                                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                                src="https://ga-core.s3.amazonaws.com/production/uploads/instructor/image/23593/ga-logo-gear.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
                         </div>

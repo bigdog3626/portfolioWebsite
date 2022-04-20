@@ -18,6 +18,11 @@ const userData = {
         link: "https://github.com/bigdog3626/tabChecker",
         imgUrl: "/tabcheckerscreencap.png",
       },
+      {
+        title: "Ebook",
+        link: "https://github.com/bigdog3626",
+        imgUrl: "/cinematiks.png"
+      }
     ],
 
     experience: [

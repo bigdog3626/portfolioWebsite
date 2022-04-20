@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useTheme } from "next-themes";
 import { useRouter } from "next/router";
 import userData from "@constants/data";
+import nightwind from "nightwind/helper";
 
 export default function Navbar() {
   const router = useRouter();
@@ -10,13 +11,23 @@ export default function Navbar() {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
+  const toggle = () => {
+    nightwind.beforeTransition();
+    if (theme !== "dark") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
+
   useEffect(() => {
     setMounted(true);
   }, []);
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-10 md:py-20">
+    <div className="max-w-6xl mx-auto px-4 md:pt-10 md:-mb-8">
       <div className="flex md:flex-row justify-between items-center">
+       
         {/* Logo / Home / Text */}
         <div className="flex flex-col">
           <Link href="/">
@@ -188,7 +199,7 @@ export default function Navbar() {
             aria-label="Toggle Dark Mode"
             type="button"
             className="w-10 h-10 p-3 rounded focus:outline-none"
-            onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+            onClick={toggle}
           >
             {mounted && (
               <svg
@@ -239,7 +250,11 @@ export default function Navbar() {
             Contact
           </a>
         </Link>
-      </div>
+      </div> 
+          <svg width="1160" height="30" xmlns="http://www.w3.org/2000/svg">
+          <path d="M 20 10 L 1100 10" stroke="#000" />
+        </svg>
     </div>
+
   );
 }

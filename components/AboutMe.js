@@ -4,16 +4,16 @@ import userData from "../constants/data";
 
 export default function AboutMe() {
     return (
-        <section className="bg-gray-100 dark:bg-gray-1000">
-            <div className="max-w-6xl mx-auto h-48 bg-gray-100 dark:bg-gray-800">
-                <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left text-grey-700">
+        <section className="bg-neutral-100">
+            <div className="max-w-6xl mx-auto h-48 bg-neutral-100">
+                <h1 className=" text-5xl md:text-9xl font-bold pt-[4.6rem] pb-20 text-center md:text-left text-neutral-700">
                     About Me.
                 </h1>
             </div>
-            <div className="bg-gray-100 -mt-10 dark:bg-gray-800">
+            <div className="bg-neutral-200 -mt-10">
                 <div className="text-container max-w-6xl mx-auto pt-20">
                     <p
-                        className="leading-loose text-2xl md:text-4xl font-semibold  mx-4 text-grey-600 dark:text-gray-500"
+                        className="leading-loose text-2xl md:text-4xl font-semibold  mx-4 text-neutral-500"
                         style={{ lineHeight: "3rem" }}
                     >
                         {userData.about.title}. Currently working on{" "}
@@ -26,19 +26,19 @@ export default function AboutMe() {
                     </p>
                 </div>
             </div>
-            <div className="bg-gray-100 dark:bg-gray-900 px-4">
+            <div className="bg-neutral-100 px-4">
                 <div className="pt-20 grid grid-cols-1 md:grid-cols-3 max-w-6xl mx-auto gap-y-20 gap-x-20">
                     {/* Social Buttons */}
                     <div className="inline-flex flex-col">
                         <div>
-                            <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+                            <h1 className="text-xl font-semibold text-neutral-700">
                                 Contact
                             </h1>
-                            <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
+                            <p className="text-lg text-neutral-500 mt-4">
                                 For any sort help / enquiry, shoot a{" "}
                                 <a
                                     href={`mailto:${userData.email}`}
-                                    className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                                    className="text-neutral-800 border-b-2 border-neutral-800 dark:border-neutral-300 font-bold"
                                 >
                                     mail
                                 </a>{" "}
@@ -46,16 +46,16 @@ export default function AboutMe() {
                             </p>
                         </div>
                         <div className="mt-8">
-                            <h1 className="text-xl font-semibold text-gray-700 dark:text-gray-200">
+                            <h1 className="text-xl font-semibold text-neutral-700 ">
                                 Job Opportunities
                             </h1>
-                            <p className="text-lg text-gray-500 mt-4 dark:text-gray-300">
+                            <p className="text-lg text-neutral-500 mt-4 ">
                                 I'm looking for a job currently, If you see me as a good fit,
                                 check my{" "}
                                 <a
                                     href={userData.resumeUrl}
                                     target="__blank"
-                                    className="text-gray-800 border-b-2 border-gray-800 dark:border-gray-300 font-bold dark:text-gray-300"
+                                    className="text-neutral-800 border-b-2 border-neutral-800 dark:border-neutral-300 font-bold "
                                 >
                                     CV
                                 </a>{" "}
@@ -63,7 +63,7 @@ export default function AboutMe() {
                             </p>
                         </div>
                         {/* Social Links */}
-                        <h1 className="text-xl font-semibold text-gray-700 mt-8 dark:text-gray-200">
+                        <h1 className="text-xl font-semibold text-neutral-700 mt-8 ">
                             Social Links
                         </h1>
                         <div className="mt-4 ml-4">
@@ -73,8 +73,8 @@ export default function AboutMe() {
                                     className="flex flex-row items-center space-x-4 group"
                                 >
                                     <div className="my-4">&rarr;</div>
-                                    <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                        <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                                    <p className="text-lg text-neutral-500 font-mono relative overflow-hidden ">
+                                        <div className="absolute h-0.5 w-full bg-neutral-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                                         Facebook
                                     </p>
                                 </a>
@@ -85,8 +85,8 @@ export default function AboutMe() {
                                     className="flex flex-row items-center space-x-4 group"
                                 >
                                     <div className="my-4">&rarr;</div>
-                                    <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                        <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                                    <p className="text-lg text-neutral-500 font-mono relative overflow-hidden ">
+                                        <div className="absolute h-0.5 w-full bg-neutral-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                                         Twitter
                                     </p>
                                 </a>
@@ -97,8 +97,8 @@ export default function AboutMe() {
                                     className="flex flex-row items-center space-x-4 group"
                                 >
                                     <div className="my-4">&rarr;</div>
-                                    <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                        <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                                    <p className="text-lg text-neutral-500 font-mono relative overflow-hidden ">
+                                        <div className="absolute h-0.5 w-full bg-neutral-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                                         GitHub
                                     </p>
                                 </a>
@@ -109,8 +109,8 @@ export default function AboutMe() {
                                     className="flex flex-row items-center space-x-4 group"
                                 >
                                     <div className="my-4">&rarr;</div>
-                                    <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                        <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
+                                    <p className="text-lg text-neutral-500 font-mono relative overflow-hidden ">
+                                        <div className="absolute h-0.5 w-full bg-neutral-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                                         LinkedIn
                                     </p>
                                 </a>
@@ -121,8 +121,8 @@ export default function AboutMe() {
                                     className="flex flex-row items-center space-x-4 group"
                                 >
                                     <div className="my-4">&rarr;</div>
-                                    <p className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                                        <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                                    <p className="text-lg text-neutral-500 font-mono relative overflow-hidden ">
+                                        <div className="absolute h-0.5 w-full bg-neutral-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
                                         Instagram
                                     </p>
                                 </a>
@@ -134,13 +134,13 @@ export default function AboutMe() {
                         {userData.about.description?.map((desc, idx) => (
                             <p
                                 key={idx}
-                                className="text-xl text-gray-700 mb-4 dark:text-gray-700"
+                                className="text-xl text-neutral-500 mb-4"
                             >
                                 {desc}
                             </p>
                         ))}
 
-                        <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-gray-50">
+                        <h1 className="bg-red-500 text-3xl rounded-md px-2 py-1 inline-block font-bold text-neutral-50">
                             Tech Stack
                         </h1>
                         <div className="flex flex-row flex-wrap mt-8">

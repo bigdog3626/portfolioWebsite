@@ -3,9 +3,9 @@ import userData from "../constants/data";
 
 export default function Footer() {
     return (
-        <div className="bg-gray-200 dark:bg-gray-900">
-            <div className="max-w-6xl mx-auto px-4 py-10 md:py-20 text-gray-700">
-                <div className="h-0.5 w-full bg-white dark:bg-gray-700"></div>
+        <div className="bg-neutral-100">
+            <div className="max-w-6xl mx-auto px-4 py-10 md:py-20 text-neutral-700">
+                <div className="h-0.5 w-full bg-white dark:bg-neutral-700"></div>
                 <div classsName="flex flex-col space-y-4 md:space-y-0 md:flex-row justify-between md:items-center mt-8">
                     <div>
                         <p>&copy; Dylan Meyer. All Rights Reserved</p>
@@ -15,7 +15,7 @@ export default function Footer() {
                             Developed by
                             <div className="inline-block transform hover:scale-110 hover:-rotate-3 transition duration-300">
                                 <a
-                                    className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-gray-50"
+                                    className="hover:bg-red-500 rounded-md px-2 py-1  hover:text-neutral-50"
                                     href="https://github.com/bigdog3626"
                                 >
                                     Dylan Meyer
@@ -26,7 +26,7 @@ export default function Footer() {
                     <div className="space-x-4 flex flex-row items-center">
                         <a
                             href={userData.socialLinks.instagram}
-                            className="text-base font-normal text-gray-600 dark:text-gray-300"
+                            className="text-base font-normal text-neutral-600 dark:text-neutral-300"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function Footer() {
                         </a>
                         <a
                             href={userData.socialLinks.twitter}
-                            className="text-base font-normal text-gray-600 dark:text-gray-300"
+                            className="text-base font-normal text-neutral-600 dark:text-neutral-300"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ export default function Footer() {
                         </a>
                         <a
                             href={userData.socialLinks.linkedin}
-                            className="text-base font-normal text-gray-600 dark:text-gray-300"
+                            className="text-base font-normal text-neutral-600 dark:text-neutral-300"
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

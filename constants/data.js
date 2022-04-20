@@ -7,56 +7,42 @@ const userData = {
     phone: "+1 (706) 818-5081",
     address: "Athens, Geogria, United States.",
     projects: [
-      {
-        title: "Tailwind Master Kit",
-        link: "https://tailwindmasterkit.com",
-        imgUrl: "/tmk.jpg",
-      },
-      {
-        title: "PlaceholderTech",
-        link: "https://placeholdertech.in",
-        imgUrl: "/placeholdertech.png",
-      },
+
       {
         title: "Portfolio",
-        link: "https://manuarora.in",
+        link: "https://github.com/bigdog3626/portfolio",
         imgUrl: "/portfolio.png",
-      },
+      },   
       {
-        title: "CovidRescue",
-        link: "https://covidrescue.co.in",
-        imgUrl: "/covidrescue.png",
-      },
-      {
-        title: "Algochurn",
-        link: "https://algochurn.com",
-        imgUrl: "/algochurn.png",
-      },
-      {
-        title: "Playground",
-        link: "https://play.placeholdertech.in",
-        imgUrl: "/playground.png",
-      },
-      {
-        title: "Feedmeback",
-        link: "https://feedmeback.vercel.app",
-        imgUrl: "/feedmeback.png",
-      },
-      {
-        title: "Devmedium",
-        link: "https://devmedium.vercel.app",
-        imgUrl: "/devmedium.png",
+        title: "Tabchecker",
+        link: "https://github.com/bigdog3626/tabChecker",
+        imgUrl: "/tabcheckerscreencap.png",
       },
     ],
 
     experience: [
         {
-          title: "Software Developer",
+          title: "Software Developer & Venue Security Specialist",
           company: "Hospitality South",
-          year: "2021",
+          year: "August 2021 - Current",
           companyLink: "https://palomapark.com",
-          desc: "Developed TabChecker - fullstack tokenized ticketing application aimed at the event venue industry.",
+          desc: "Developed TabChecker - fullstack tokenized ticketing application aimed at the event venue industry. \n Handling venue security",
         },
+        {
+          title: "Homegoods Asociate",
+          company: "TjMaxx",
+          year: "March 2021- August 2021",
+          companyLink: "https://tjmaxx.com",
+          desc: "Handled sales and creation of unqiue product displays to catch consumers eyes. "
+
+        },
+        {
+          title: "Overnight Delivery Team Logistics Lead",
+          company: "Lowe's",
+          year: "April 2020 - September 2020",
+          companyLink: "https://lowes.com",
+          desc: "Oversaw night time appliance delivery shipping manifests and delivery queueing for optimal delivery routing and throughput."
+        }
       ],
     about: {
       title:

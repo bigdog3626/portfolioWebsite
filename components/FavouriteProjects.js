@@ -3,15 +3,15 @@ import Link from "next/link";
 
 export default function FavouriteProjects() {
   return (
-    <div className="bg-[#dadada] -mt-40 dark:bg-meadows-200">
-      <div className="max-w-6xl mx-auto">
-        <header className="flex flex-col md:flex-row justify-between items-center pt-40 mx-10 md:my-20 lg:my-0">
-          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-gray-600 my-20 md:my-0  dark:text-gray-600 text-center">
+    <div className="snap-center -mt-20 bg-neutral-200">
+      <div className="max-w-6xl mx-auto ">
+        <header className="flex flex-col md:flex-row justify-between items-center mx-10 md:my-20 lg:my-2 ">
+          <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-neutral-900 text-center">
             Favorite Projects
           </h1>
           <Link href="/projects">
             <a className="mb-20 md:mb-0 px-8 py-4 rounded-md bg-white shadow-lg text-xl font-semibold 
-            flex flex-row space-x-4 items-center text-gray-700 dark:text-meadows-700">
+            flex flex-row space-x-4 items-center text-neutral-700">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -31,13 +31,14 @@ export default function FavouriteProjects() {
             </a>
           </Link>
         </header>
+        
 
         {/* Grid starts here */}
-        <div className="grid md:grid-cols-3 gap-8 lg:-mt-8 pb-40">
+        <div className="grid md:grid-cols-3 gap-8 pb-40">
           {/* Single card */}
           <a
             href="https://github.com/bigdog3626/tabChecker"
-            className="w-full block col-span-3 shadow-2xl"
+            className="w-full block col-span-3 dark:shadow-neutral-600 shadow-2xl"
           >
             <div className="relative overflow-hidden">
               <img
@@ -45,10 +46,10 @@ export default function FavouriteProjects() {
                 alt="tabChecker"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-neutral-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 TabChecker
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 text-neutral-50 font-bold text-xl">
                 01
               </h1>
             </div>
@@ -65,10 +66,10 @@ export default function FavouriteProjects() {
                 alt="Cinematicks"
                 className="transform hover:scale-125 transition duration-2000 ease-out"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-neutral-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 Cinematicks
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 text-neutral-50 font-bold text-xl">
                 02
               </h1>
             </div>
@@ -86,15 +87,16 @@ export default function FavouriteProjects() {
                 alt="portfolio"
                 className="transform hover:scale-125 transition duration-2000 ease-out object-cover shadow-2xl"
               />
-              <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
+              <h1 className="absolute top-10 left-10 text-neutral-50 font-bold text-xl bg-red-500 rounded-md px-2">
                 PortfolioWebsite
               </h1>
-              <h1 className="absolute bottom-10 left-10 text-gray-50 font-bold text-xl">
+              <h1 className="absolute bottom-10 left-10 text-neutral-50 font-bold text-xl">
                 03
               </h1>
             </div>
           </a>
         </div>
+        
       </div>
     </div>
   );

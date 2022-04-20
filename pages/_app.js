@@ -8,7 +8,11 @@ import { ThemeProvider } from "next-themes";
 function MyApp({ Component, pageProps }) {
   return (
     
-      <ThemeProvider>
+      <ThemeProvider 
+        attribute="class"
+        storageKey = "nightwind-mode"
+        defaultTheme="dark"
+        >
         <Component {...pageProps} />
       </ThemeProvider>
     

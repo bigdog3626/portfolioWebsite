@@ -60,7 +60,7 @@ const userData = {
     },
     
     resumeUrl:
-      "https://drive.google.com/file/d/1xmE3BOmgM7TAOOgVp36xQIQvYDntDYoo/view?usp=sharing",
+      "https://www.linkedin.com/in/charles-meyer-6043b2219",
     socialLinks: {
       instagram: "https://instagram.com/dmeyer_19",
       twitter: "https://twitter.com/dylmeyer",

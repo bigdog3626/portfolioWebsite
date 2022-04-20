@@ -12,7 +12,7 @@ export default function Experience() {
         </h1>
       </div>
       <div className="-mt-10 bg-neutral-200 dark:bg-neutral-900">
-        <div className="max-w-6xl grid grid-cols-1 dark:bg-neutral-900 mx-auto py-[7rem]">
+        <div className="max-w-6xl grid grid-cols-1 mx-auto py-[7rem]">
           {/* Experience card */}
           {userData.experience.map((exp, idx) => (
             <>

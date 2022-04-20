@@ -12,17 +12,17 @@ export default function Hero() {
             <div className="w-full md:w-1/2 mx-auto-text-center md:text-left lg:p-20">
                 <RoughNotationGroup show={true}>
                     <RainBowHighlight color={colors[0]}>
-                        <h1 className="text-5xl md:text-9xl font-bold  dark:text-zinc-300 my-2">
+                        <h1 className="text-5xl md:text-9xl font-bold dark:text-neutral-300 my-2">
                             Designer.
                         </h1>
                     </RainBowHighlight>
                     <RainBowHighlight color={colors[1]}>
-                        <h1 className="text-5xl md:text-9xl font-bold dark:text-zinc-300 my-2">
+                        <h1 className="text-5xl md:text-9xl font-bold dark:text-neutral-300 my-2">
                             Developer.
                         </h1>
                     </RainBowHighlight>
                     <RainBowHighlight color={colors[2]}>
-                        <h1 className="text-5xl md:text-9xl font-bold dark:text-zinc-300 my-2">
+                        <h1 className="text-5xl md:text-9xl font-bold dark:text-neutral-300 my-2">
                             Engineer.
                         </h1>
                     </RainBowHighlight>

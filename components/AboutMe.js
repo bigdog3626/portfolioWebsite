@@ -130,11 +130,11 @@ export default function AboutMe() {
                         </div>
                     </div>
                     {/* Text area */}
-                    <div className="col-span-1 md:col-span-2">
+                    <div className="col-span-1 md:col-span-2 ">
                         {userData.about.description?.map((desc, idx) => (
                             <p
                                 key={idx}
-                                className="text-xl text-neutral-500 mb-4"
+                                className="text-xl text-neutral-500 mb-4 "
                             >
                                 {desc}
                             </p>
@@ -146,7 +146,7 @@ export default function AboutMe() {
                         <div className="flex flex-row flex-wrap mt-8 ">
                             <img 
                                 src="https://icon-library.com/images/django-icon/django-icon-0.jpg"
-                                className="h-20 w-20 mx-4 my-4 mix-blend-lighten dark:mix-blend-screen"
+                                className="h-20 w-20 mx-4 my-4"
                             />
                             <img
                                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"

@@ -3,9 +3,9 @@ import Link from "next/link";
 
 export default function FavouriteProjects() {
   return (
-    <div className="snap-center -mt-20 bg-neutral-200">
+    <div className="snap-center -mt-24 bg-neutral-200">
       <div className="max-w-6xl mx-auto ">
-        <header className="flex flex-col md:flex-row justify-between items-center mx-10 md:my-20 lg:my-2 ">
+        <header className="flex flex-col md:flex-row justify-between items-center mx-10 md:my-5 lg:my-2 pt-5">
           <h1 className="text-6xl lg:text-9xl max-w-lg font-bold text-neutral-900 text-center">
             Favorite Projects
           </h1>

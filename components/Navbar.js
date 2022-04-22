@@ -45,7 +45,7 @@ export default function Navbar() {
         <div className="space-x-8 hidden md:block">
           <Link href="/about">
             <a
-              className={`text-base ${
+              className={` hover:shadow-2xl hover:shadow-gray-700 text-base ${
                 router.asPath === "/about"
                   ? "text-gray-800 font-bold dark:text-gray-400"
                   : "text-gray-600 dark:text-gray-300 font-normal"
@@ -251,7 +251,7 @@ export default function Navbar() {
           </a>
         </Link>
       </div> 
-          <svg width="1160" height="30" xmlns="http://www.w3.org/2000/svg">
+          <svg width="100%" height="30" xmlns="http://www.w3.org/2000/svg">
           <path d="M 20 10 L 1100 10" stroke="#000" />
         </svg>
     </div>

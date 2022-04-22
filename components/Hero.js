@@ -9,29 +9,29 @@ export default function Hero() {
         <div className="snap-center flex flex-row justify-center iterms-start overflow-hidden bg-neutral-100">
             {/* Text Container */}
 
-            <div className="w-full md:w-1/2 mx-auto-text-center md:text-left lg:p-20">
+            <div className="xl:text-9xl lg:text-8xl md:text-7xl text-6xl w-auto mx-auto-text-center md:text-left mt-20 px-40 h-auto">
                 <RoughNotationGroup show={true}>
                     <RainBowHighlight color={colors[0]}>
-                        <h1 className="text-5xl md:text-9xl font-bold dark:text-neutral-300 my-2">
+                        <h1 className="font-bold dark:text-neutral-300 my-3">
                             Designer.
                         </h1>
                     </RainBowHighlight>
                     <RainBowHighlight color={colors[1]}>
-                        <h1 className="text-5xl md:text-9xl font-bold dark:text-neutral-300 my-2">
+                        <h1 className="font-bold dark:text-neutral-300 my-3">
                             Developer.
                         </h1>
                     </RainBowHighlight>
                     <RainBowHighlight color={colors[2]}>
-                        <h1 className="text-5xl md:text-9xl font-bold dark:text-neutral-300 my-2">
+                        <h1 className="font-bold dark:text-neutral-300 my-3">
                             Engineer.
                         </h1>
                     </RainBowHighlight>
                 </RoughNotationGroup>
             </div>
             {/* Image Container */}
-            <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
+            <div className="relative hidden md:block w-full md:w-1/2 -mr-40 mt-20">
                 <div className="w-1/2 h-3/4">
-                    <img src={userData.avatarUrl} alt="avatar" className=" shadow h-350 w-300 mx-4 my-2 " />
+                    <img src={userData.avatarUrl} alt="avatar" className=" shadow h-350 w-300 mx-4 my-3 " />
                     <div className="flex flex-row justify-between mt-4">
                         <div className="flex flex-row space-x-4 pl-4">
                             <svg

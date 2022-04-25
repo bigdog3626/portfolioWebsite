@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="snap-center flex flex-row justify-center iterms-start overflow-hidden bg-neutral-100">
             {/* Text Container */}
 
-            <div className="xl:text-9xl lg:text-8xl md:text-7xl text-6xl w-auto mx-auto-text-center md:text-left mt-20 px-40 h-auto">
+            <div className="xl:text-9xl lg:text-8xl md:text-7xl text-6xl w-auto mx-auto-text-center md:text-left mt-20 px-40 h-auto pb-10">
                 <RoughNotationGroup show={true}>
                     <RainBowHighlight color={colors[0]}>
                         <h1 className="font-bold dark:text-neutral-300 my-3">

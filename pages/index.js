@@ -12,7 +12,7 @@ export default function Home({repositories}) {
     return (
         <ContainerBlock
             title="Dylan Meyer - Designer, Developer, Engineer"
-            description="testing out nextJS"
+            description="Comprehensive and Dynamic personal portfolio website displaying the depths of my web development skills."
         >
             <Hero />
             <FavouriteProjects />

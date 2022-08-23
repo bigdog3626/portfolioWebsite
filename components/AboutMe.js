@@ -1,4 +1,3 @@
-
 import React from "react";
 import userData from "../constants/data";
 
@@ -16,7 +15,16 @@ export default function AboutMe() {
                         className="leading-loose text-2xl md:text-4xl font-semibold  mx-4 text-neutral-500"
                         style={{ lineHeight: "3rem" }}
                     >
-                        {userData.about.title}. Currently working on{" "}
+                        <p>
+                            I am working as an{" "}
+                            <span className="text-bold text-red-500 underline underline-offset-auto">
+                                SDE I @ Floor & Decor{" "}
+                            </span>{" "}
+                            while completing my senior year at the University of
+                            Geogria studying Computer Systems Engineering with a
+                            minor in Computer Science.
+                        </p>
+                        Currently working on{" "}
                         <a
                             className="bg-red-500 rounded-md px-2 py-1 text-white"
                             href={userData.about.currentProjectUrl}
@@ -50,16 +58,17 @@ export default function AboutMe() {
                                 Job Opportunities
                             </h1>
                             <p className="text-lg text-neutral-500 mt-4 ">
-                                I'm looking for a job currently, If you see me as a good fit,
-                                check my{" "}
+                                I am not currently looking for any employment
+                                oppurtunities. Check my{" "}
                                 <a
                                     href={userData.resumeUrl}
                                     target="__blank"
                                     className="text-neutral-800 border-b-2 border-neutral-800 dark:border-neutral-300 font-bold "
                                 >
-                                    CV
+                                    LinkedIn
                                 </a>{" "}
-                                and I'd love to work for you.
+                                to get a better understanding of my Skillset and
+                                experience
                             </p>
                         </div>
                         {/* Social Links */}
@@ -144,7 +153,7 @@ export default function AboutMe() {
                             Tech Stack
                         </h1>
                         <div className="flex flex-row flex-wrap mt-8 ">
-                            <img 
+                            <img
                                 src="https://icon-library.com/images/django-icon/django-icon-0.jpg"
                                 className="h-20 w-20 mx-4 my-4"
                             />
@@ -157,7 +166,6 @@ export default function AboutMe() {
                                 className="h-20 w-20 mx-4 my-4"
                             />
                             <img
-                            
                                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                                 className="h-20 w-20 mx-4 my-4"
                             />
@@ -199,5 +207,4 @@ export default function AboutMe() {
             </div>
         </section>
     );
-
 }

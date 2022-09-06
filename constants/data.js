@@ -49,7 +49,7 @@ const userData = {
         {
             title: "Software Developer & Venue Security Specialist",
             company: "Hospitality South",
-            year: "August 2021 - Current",
+            year: "August 2021 - May 2022",
             companyLink: "https://palomapark.com",
             desc: "Developed TabChecker - fullstack tokenized ticketing application aimed at the event venue industry. \n Handling venue security",
         },

@@ -1,22 +1,33 @@
 const userData = {
     githubUsername: "bigdog3626",
     name: "Dylan Meyer",
-    designation: "Full-Stack Developer, System Engineer, Student",
+    designation: "Senior Software Engineer, Deep Learning Advocate, Student",
     avatarUrl: "/avatar.png",
     email: "cdm80383@uga.edu",
     phone: "+1 (706) 818-5081",
     address: "Athens, Geogria, United States.",
     projects: [
         {
+            title: "Concrete Crack Detection",
+            link: "https://github.com/bigdog3626/Concerete_Crack_Detection/blob/main/Concrete%20Crack%20Detection.ipynb",
+            imgUrl: "/crackdetection.png",
+        },
+        {
+            title: "Sensor Failure Prediction",
+            link: "https://github.com/bigdog3626/SensorFailurePrediction/blob/main/SensorFailurePredictionDetection.ipynb",
+            imgUrl: "/Sensor_system_failure.png",
+        },
+        {
+            title: "Covid Case & Death - EDA, FE",
+            link: "https://www.kaggle.com/code/dylanfazo/covid-case-death-eda-fe",
+            imgUrl: "/pandemic_burden.png",
+        },
+        {
             title: "Portfolio",
             link: "https://github.com/bigdog3626/portfolio",
             imgUrl: "/portfolio.png",
         },
-        {
-            title: "Tabchecker",
-            link: "https://github.com/bigdog3626/tabChecker",
-            imgUrl: "/tabcheckerscreencap.png",
-        },
+
         {
             title: "Ebook",
             link: "https://github.com/bigdog3626",
@@ -26,9 +37,16 @@ const userData = {
 
     experience: [
         {
-            title: "SDE I  - (Software Development Engineer 1)",
+            title: "Senior Software Engineer",
+            company: "Analatom Inc.",
+            year: "Feb 2023 - Current",
+            companyLink: "http://www.analatom.com/",
+            desc: "Serving as principal investigator on SBIR-AFWERX P2 Contract Titled: A Dynamic AI-based Inspection System for Warfighter Surfaces Defect Detection Using Deep Learning Aided Multi-Spectral Imaging​. Harnessing both fullstack application development and pytorch to create an end-to-end solution to keep mission critical systems safe.",
+        },
+        {
+            title: "Software Developer",
             company: "Floor & Decor",
-            year: "July 2022 - Current",
+            year: "July 2022 - Feburary 2023",
             companyLink: "https://flooranddecor.com",
             desc: "Developing an internal web-app for use by Chief Executive Merchants, to calculate and forecast potential budget changes brought on by hourly rate adjustments. Using NextJS for initial load SSR while having LDAP group backed login/access data fetching and render occurs server side meaning Data warehouse information is both secured and encrypted prior to page load. ",
         },
@@ -77,8 +95,9 @@ const userData = {
             `throughout this time I fell in love with the idea of FullStack application development, and mastering the connections between the front-end and back-end.`,
             `Strong project proven skills in Django, NEXT.js, and Node.js`,
         ],
-        currentProject: "TabChecker",
-        currentProjectUrl: "https://github.com/bigdog3626/tabChecker",
+        currentProject: "Water Pump System Failure Prediction",
+        currentProjectUrl:
+            "https://github.com/bigdog3626/SensorFailurePrediction",
     },
 
     resumeUrl: "https://www.linkedin.com/in/charles-meyer-6043b2219",

@@ -15,22 +15,21 @@ export default function AboutMe() {
                         className="leading-loose text-2xl md:text-4xl font-semibold  mx-4 text-neutral-500"
                         style={{ lineHeight: "3rem" }}
                     >
-                        <p>
-                            I am working as an{" "}
-                            <span className="text-bold text-red-500 underline underline-offset-auto">
-                                SDE I @ Floor & Decor{" "}
-                            </span>{" "}
-                            while completing my senior year at the University of
-                            Geogria studying Computer Systems Engineering with a
-                            minor in Computer Science.
+                        I am working as a{" "}
+                        <span className="text-bold text-red-500 underline underline-offset-auto">
+                            Senior Software Engineer @ Analatom Inc.{" "}
+                        </span>{" "}
+                        while completing my senior year at the University of
+                        Geogria studying Computer Systems Engineering.
+                        <p className="py-3">
+                            Currently working on{" "}
+                            <a
+                                className="bg-red-500 rounded-md px-2 py-1 text-white"
+                                href={userData.about.currentProjectUrl}
+                            >
+                                {userData.about.currentProject} 🚰
+                            </a>
                         </p>
-                        Currently working on{" "}
-                        <a
-                            className="bg-red-500 rounded-md px-2 py-1 text-white"
-                            href={userData.about.currentProjectUrl}
-                        >
-                            {userData.about.currentProject} ✈️
-                        </a>
                     </p>
                 </div>
             </div>

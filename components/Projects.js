@@ -12,12 +12,12 @@ export default function Projects() {
             {/* Grid starts Here */}
             <div className="bg-neutral-200">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 py-20 pb-40 -mt-10">
-                    {userData.projects.map((proj,idx) => (
+                    {userData.projects.map((proj, idx) => (
                         <ProjectCard
-                        title={proj.title}
-                        link={proj.link}
-                        imgUrl={proj.imgUrl}
-                        number={`${idx+1}`}
+                            title={proj.title}
+                            link={proj.link}
+                            imgUrl={proj.imgUrl}
+                            number={`${idx + 1}`}
                         />
                     ))}
                 </div>
@@ -32,9 +32,9 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
             <div className="relative overflow-hidden">
                 <div className="h-72 object-cover">
                     <img
-                    src={imgUrl}
-                    alt="portfolio"
-                    className="transform hover:scale-125 transition duration-200 ease-out object-cover h-full w-full"
+                        src={imgUrl}
+                        alt="portfolio"
+                        className="transform hover:scale-125 transition duration-200 ease-out object-cover h-full w-full"
                     />
                 </div>
                 <h1 className="absolute top-10 left-10 text-gray-50 font-bold text-xl bg-red-500 rounded-md px-2">
@@ -45,5 +45,5 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
                 </h1>
             </div>
         </a>
-    )
-}
+    );
+};

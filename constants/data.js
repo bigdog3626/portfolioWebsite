@@ -1,7 +1,7 @@
 const userData = {
     githubUsername: "bigdog3626",
     name: "Dylan Meyer",
-    designation: "Senior Software Engineer, Deep Learning Advocate, Student",
+    designation: "Senior Software Engineer, Deep Learning and Machine Learning Advocate",
     avatarUrl: "/avatar.png",
     email: "cdm80383@uga.edu",
     phone: "+1 (706) 818-5081",
@@ -48,7 +48,7 @@ const userData = {
             company: "Floor & Decor",
             year: "July 2022 - Feburary 2023",
             companyLink: "https://flooranddecor.com",
-            desc: "Developing an internal web-app for use by Chief Executive Merchants, to calculate and forecast potential budget changes brought on by hourly rate adjustments. Using NextJS for initial load SSR while having LDAP group backed login/access data fetching and render occurs server side meaning Data warehouse information is both secured and encrypted prior to page load. ",
+            desc: "Developed and Deployed, via Azure pipelines, a stacked prediction model that consisted of a 3 layer TensorFlow Neural Network and HyperOpt (bayesian optimization) tuned XGBoost regression model that could time series forecast product performance, given a multitude of features. ",
         },
         {
             title: "Intern Corporate Systems Software Development",

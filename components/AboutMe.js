@@ -55,7 +55,7 @@ export default function AboutMe() {
                                 Job Opportunities
                             </h1>
                             <p className="text-lg text-neutral-500 mt-4 ">
-                                I am not currently looking for any employment
+                                I am currently looking for employment
                                 oppurtunities. Check my{" "}
                                 <a
                                     href={userData.resumeUrl}

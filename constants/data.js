@@ -89,7 +89,7 @@ const userData = {
     about: {
         title: "I am working as an SDE I @ Floor & Decor while completing my senior year at the University of Geogria studying Computer Systems Engineering with a minor in Computer Science.",
         description: [
-            `I solve problems in creative ways. At the University of Georgia, where I am completing my senior year in the College of Engineering,`,
+            `I solve problems in creative ways. At Analatom Inc.`,
             `I have learned how to approach difficult problems and use my learned skills to derive the best solution.`,
             `Over the years I have picked up a great amount of experience in langauges such as Python, C++. Assembly, Verilog. Further more I have`,
             `throughout this time I fell in love with the idea of FullStack application development, and mastering the connections between the front-end and back-end.`,

@@ -19,8 +19,6 @@ export default function AboutMe() {
                         <span className="text-bold text-red-500 underline underline-offset-auto">
                             Senior Software Engineer @ Analatom Inc.{" "}
                         </span>{" "}
-                        while completing my senior year at the University of
-                        Geogria studying Computer Systems Engineering.
                         <p className="py-3">
                             Currently working on{" "}
                             <a

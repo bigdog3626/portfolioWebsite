@@ -3,7 +3,7 @@ const userData = {
     name: "Dylan Meyer",
     designation: "Senior Software Engineer, Deep Learning and Machine Learning Advocate",
     avatarUrl: "/avatar.png",
-    email: "cdm80383@uga.edu",
+    email: "chipmeyer111@gmail.com",
     phone: "+1 (706) 818-5081",
     address: "Athens, Geogria, United States.",
     projects: [
